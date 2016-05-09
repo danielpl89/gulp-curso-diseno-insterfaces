@@ -1,1 +1,1 @@
-# gulp-curso-di
+# Ejercicio con Gulp, Bower, Sass y Jade
