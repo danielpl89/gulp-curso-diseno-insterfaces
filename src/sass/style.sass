@@ -1,0 +1,48 @@
+$naranja: #d35400
+$blanco: whitesmoke
+$naranja2: #e67e22
+$gris: gray
+
+// ADD MIXINS
+@import _mixin
+
+
+.jumbotron
+  background:
+    image: url(../img/291H.jpg)
+    size: cover
+  height: 100vh
+
+.jumbotron h1
+  margin-top: 25%
+  color: $naranja2
+
+.btn
+  border-radius: 0
+
+
+.btn-info
+  +trans(all 400ms ease)
+  background:
+    color: $naranja
+  border:
+    color: $naranja2
+
+.btn-info:hover
+  background-color: $naranja2
+  border-color: $naranja
+
+h4
+  font-size: 2em
+
+p
+  font-size: 14px
+  color: $gris
+
+
+@media (max-width: 768px)
+  .jumbotron h1
+    margin-top: 60%
+
+  .btn-block
+    margin-bottom: 20px
